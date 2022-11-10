@@ -7,33 +7,36 @@
 
     <div class="section-content">
         {% for experience in experiences.items %}
-        <div class="item">
-
-            <div class="upper-row">
-                <div class="company">
-                    {{ experience.company }}
-                    {% if experience.tag %}
-                    <small>[{{ experience.tag }}]</small>
-                    {% endif %}
+        <section id="{{ experience.company | downcase }}" class="experience">
+            <div class="item">
+                <div class="upper-row">
+                    <div class="company">
+                        <h6>{{ experience.company }}</h6>
+                        {% if experience.tag %}
+                        <small>[{{ experience.tag }}]</small>
+                        {% endif %}
+                    </div>
+                    <div class="time">{{ experience.time }}</div>
                 </div>
-                <div class="time">{{ experience.time }}</div>
-            </div>
 
-            <div class="upper-row">
-                <div class="role">{{ experience.role }}</div>
-                <div class="location"><i class="fa-solid fa-location-dot"></i> {{ experience.location }}</div>
-            </div>
-
-            {% if experience.details %}
-            <div class="details">
-                <div class="markdown">
-                    {{ experience.details | markdownify }}
+                <div class="upper-row">
+                    <div class="role">{{ experience.role }}</div>
+                    <div class="location"><i class="fa-solid fa-location-dot"></i> {{ experience.location }}</div>
                 </div>
-            </div>
-            {% endif %}
 
-        </div>
+                {% if experience.details %}
+                <div class="details">
+                    <div class="markdown">
+                        {{ experience.details | markdownify }}
+                    </div>
+                </div>
+                {% endif %}
+
+            </div>
+        </section>
+        <br/>
         {% endfor %}
     </div>
 </section>
+<br/>
 {% endif %}

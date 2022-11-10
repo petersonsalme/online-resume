@@ -12,10 +12,9 @@
                 <div class="item">
 
                     <div class="upper-row">
-                        {% if certificate.link %}
-                        <div class="certificate"><a href="{{ certificate.link }}">{{ certificate.name }}</a></div>
-                        {% else %}
                         <div class="certificate">{{ certificate.name }}</div>
+                        {% if certificate.link %}
+                        <a href="{{ certificate.link }}">(link here)</a>
                         {% endif %}
                     </div>
 
@@ -33,6 +32,7 @@
                     {% endif %}
                 </div>
             </div>
+            <br/>
             {% endfor %}
         </div>
     </div>

@@ -1,4 +1,5 @@
 {% assign contact = data.contact %}
+<br/>
 <ul class="list-unstyled">
     {% if contact.location %}
     <li class="location"><i class="fa-solid fa-location-dot"></i>
@@ -107,4 +108,11 @@
         <a href="https://www.goodreads.com/user/show/{{ contact.goodreads }}" target="_blank">{{ contact.goodreads }}</a>
     </li>
     {% endif %}
+
+    {% if contact.leetcode %}
+    <li class="leetcode"><i class="fa-solid fa-code"></i>
+        <a href="https://leetcode.com/{{ contact.leetcode }}" target="_blank">{{ contact.leetcode }}</a>
+    </li>
+    {% endif %}
 </ul>
+<br/>

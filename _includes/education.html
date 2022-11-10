@@ -19,6 +19,12 @@
                 <div class="degree"><i class="fa-solid fa-graduation-cap"></i> {{ graduation.degree }}</div>
             </div>
 
+            {% if graduation.link %}
+            <div class="upper-row">
+                <div class="link"><a href="{{ graduation.link }}">{{ graduation.link }}</a></div>
+            </div>
+            {% endif %}
+
             {% if graduation.details %}
             <div class="details">
                 <div class="markdown">
@@ -28,6 +34,7 @@
             {% endif %}
 
         </div>
+        <br/>
         {% endfor %}
     </div>
 </section>

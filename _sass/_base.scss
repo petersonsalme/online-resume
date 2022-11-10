@@ -68,7 +68,17 @@ small {
             overflow: hidden;
             margin-bottom: 2px;
 
+            .company {
+                display: flex;
+                flex-direction: row;
+
+                h6 {
+                    margin-right: 2px;
+                }
+            }
+
             .company,
+            .company h6,
             .certificate,
             .university {
                 font-weight: $base-font-weight * 1.75;

@@ -1,6 +1,6 @@
 # online-resume
 
-[English](README.md) | [简体中文](README_CN.md)
+[English](README.md)
 
 ---
 
@@ -61,7 +61,3 @@ If you want to use it locally, you should clone this repository then just like d
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Others
-
-+ Hugo Version: [hugo-theme-online-resume](https://github.com/tarrex/hugo-theme-online-resume)

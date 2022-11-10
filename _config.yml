@@ -1,5 +1,5 @@
 # Welcome to Jekyll!
-title: Online &hearts; Resume
+title: Peterson's resume
 url:
 baseurl:
 
@@ -10,10 +10,10 @@ sass:
 
 # Custom
 lang: en                    # html lang
-open: true                  # open or close your site
+open: true                 # open or close your site
 date_format: "%Y-%m-%d"     # date format
-theme_color: "#1DA1F2"      # your favorite theme color
-allow_search_engines: true  # allow search engines indexing your resume
+theme_color: "#000000"      # your favorite theme color
+allow_search_engines: false # allow search engines indexing your resume
 analytics:
   google:                   # your google analytics
   cloudflare:               # your cloudflare analytics

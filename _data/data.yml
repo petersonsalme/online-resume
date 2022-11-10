@@ -1,70 +1,72 @@
 basic:
-  name: Foo Bar
-  title: Backend Developer
+  name: Peterson Salme
+  title: Software Engineer
   avatar:
     display: true
     path: profile.png
 
 contact:
-  location:
-  email: me@example.com
-  phone: +86-111-2222-3333
-  website: example.com
+  location: Brazil
+  email: petersonsalme@gmail.com
+  phone: 
+  website: 
   wechat:
   whatsapp:
   telegram:
-  github: github
+  github: petersonsalme
   gitlab:
   bitbucket:
   googlescholar:
   researchgate:
-  linkedin:
+  linkedin: peterson-salme
   medium:
-  twitter: twitter
+  twitter: 
   stackoverflow:
   quora:
   goodreads:
+  leetcode: petersonsalme
 
 profile:
   display: true
-  title: Profile
+  title: About me
   details: |
-    It's your career profile, you can wirte markdown format text.
-    + First
-    + Second
-
-    ...
+    + Enthusiastic and hard working software engineer with 10 years of experience, using a variety of programming languages and tools;
+    + Engaged in clean, tested and efficient code, I have strong skills in developing distributed micro-services and I also have experience in front-end technologies;
+    + I am reliable and a results oriented team player with clear and objective communication.
 
 experiences:
   display: true
-  title: Experiences
+  title: Employment History
   items:
-    - role: Backend Developer
-      time: 2018.03 - 2019.03
-      company: Second Company
-      tag:
-      location: Beijing
+    - role: Senior Software Engineer
+      time: 2021.12 - 2022.06
+      company: Turing
+      tag: remote, contractor
+      location: Remote, Brazil
+      details: |
+        Experience outsourced to [Coinbase](https://www.coinbase.com/):
+        + Decomposition of legacy Ruby on Rails service to microservices architecture using Go;
+        + Development of a microservice responsible for automating the verification of possible relation between onboarding customers with politically exposed people.
+        
+        Stack: Go, Ruby on Rails, Amazon Web Services, MongoDB.
+
+    - role: Senior Software Engineer
+      time: 2021.04 - 2021.11
+      company: MovilePay
+      tag: remote, full-time
+      location: Remote, Brazil
       details: |
         Experience in this company:
-        + First
-        + Second
-
-        ...
-
-    - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
-      details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
+        + During the time I was part of the "Credit squad", I created from the scratch a microservice responsible for the generation of a banking file called “CNAB500” and send it to a partner bank via SMTP. By doing that, the company whould be able to use the credit rights from the customer's loans payments as an investiment in a fund called FIDC;
+        + In the "Identity squad":
+          + Migration of the squad core services from in-house developed framework to Spring Boot, plus improved separation of concerns;
+          + Creation of a CLI, using Go, to force the migration of inactive users to the migrated services;
+          + Creation of a test library using TestContainers to achive company quality assurance goals and make possible the migration of the company core services from in-house developed framework to Sprint Boot.
+        
+        Stack: Kotlin, Go, Spring Boot, Vert.X, TestContainers, RestAssured, Amazon Web Services (SQS, SNS), PostgreSQL.
 
 projects:
-  display: true
+  display: false
   title: Projects
   intro: |
     This is all the projects I'm involved in.
@@ -82,66 +84,49 @@ projects:
 
 skills:
   display: true
-  title: Skills
+  title: Technical skills
   details: |
     Here is my skills:
-    + First
-    + Second
-
-    ...
+    + Java
+    + Kotlin
+    + Go
 
   levels:
-    - name: Skill A
+    - name: Java
       level: 90
-    - name: Skill B
-      level: 80
-    - name: Skill C
+    - name: Kotlin
       level: 70
+    - name: Go
+      level: 90
 
 education:
   display: true
-  title: Education
+  title: Education history
   items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      details: |
-        Experience in this university:
-        + First
-        + Second
+    - university: UniCV - Centro Universitário Cidade Verde
+      time: 2015 - 2016
+      major: Games Development
+      degree: Specialization
+      link: https://unicv.edu.br/
 
-        ...
-
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
+    - university: SMG - Sagrada Maria da Glória
+      time: 2012 - 2015
+      major: Information Systems
       degree: Bachelor
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
-
+      link: https://www.smg.edu.br/
+ 
 certificates:
   display: true
   title: Certificates
   items:
-    - name: Course Foo
-      authority: Coursera
-      time: 2020
-      link:
-      details: |
-        It's my Course Foo certificate by coursera.
-    - name: Course Bar
-      authority: Coursera
-      time: 2020
-      link: https://www.google.com
-      details: |
+    - name: EF Standard English Test (EF SET)
+      authority: EF Set
+      time: 2022
+      link: https://www.efset.org/cert/5hSdCz
+      details:
 
 publications:
-  display: true
+  display: false
   title: Publications
   intro: |
     This is all the books I wrote.
@@ -157,7 +142,7 @@ publications:
       link:
 
 patents:
-  display: true
+  display: false
   title: Patents
   details: |
     This is all my patents.
@@ -165,15 +150,15 @@ patents:
 
 languages:
   display: true
-  title: Languages
+  title: Linguistic skills
   items:
-    - idiom: Chinese
+    - idiom: Portuguese
       level: Native
     - idiom: English
-      level: Professional
+      level: C1
 
 interests:
-  display: true
+  display: false
   title: Interests
   items:
     - item: Reading
@@ -182,7 +167,7 @@ interests:
       link:
 
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.
