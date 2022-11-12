@@ -1,6 +1,6 @@
 basic:
   name: Peterson Salme
-  title: Software Engineer
+  title: Senior Software Engineer
   avatar:
     display: true
     path: profile.png
@@ -65,6 +65,63 @@ experiences:
         
         Stack: Kotlin, Go, Spring Boot, Vert.X, TestContainers, RestAssured, Amazon Web Services (SQS, SNS), PostgreSQL.
 
+    - role: Software Engineer
+      time: 2020.04 - 2021.04
+      company: PagSeguro
+      tag: remote, full-time
+      location: Remote, Brazil
+      details: |
+        Experience in this company:
+        + A company with a more efficient recurrent payment engine was bought as part of a plan to modernize PagSeguro’s payments solution and I was assigned to be part of the team which had the task of absorbing this engine by migrate its legacy Ruby on Rails code into a well decomposed microservices.
+        + I could participate in the design of the entire “recurrent payment environment” and, by myself, build from the scratch 2 out of 5 planned microservices. 
+
+        Stack: Kotlin, Spring Boot, AWS (SQS), Oracle.
+
+    - role: Software Engineer
+      time: 2020.02 - 2020.07
+      company: Truphone
+      tag: full-time
+      location: Porto Salvo, Lisbon, Portugal
+      details: |
+        Experience in this company:
+        + Evolutionary and corrective maintenance of legacy java code and microservices development in the telecommunication sector.
+
+        Stack: Java, Spring Boot, Javalin.
+
+    - role: Software Engineer
+      time: 2019.06 - 2020.01
+      company: Aubay
+      tag: contractor
+      location: Lisboa, Lisbon, Portugal
+      details: |
+        Experience in this company:
+        + Marketplace development, but focused on solving CI/CD + unit testing issues.
+
+        Stack: Angular, Typescript, Karma, Jasmine, GitLab.
+
+    - role: Software Engineer
+      time: 2018.06 - 2019.06
+      company: DB1 Global Software
+      tag: full-time
+      location: Maringá, Brazil
+      details: |
+        Experience in this company:
+        + I worked in the decomposition of a monolithic software, responsible for providing basic sanitation for thousands of Brazilians, into microservices.
+
+        Stack: Java, Spring Boot, Oracle, MongoDB, Redis.
+
+    - role: Software Engineer
+      time: 2013.05 - 2018.05
+      company: Matera
+      tag: full-time
+      location: Maringá, Brazil
+      details: |
+        Experience in this company:
+        + Evolutionary and corrective maintenance (plus level 3 support) of regulatory financial market systems in accordance with BACEN (Central Bank of Brazil);
+        + Tech migration of the legacy judicial blocking of asset software from monolithic structure to the RESTFul architecture.
+
+        Stack: Java, Spring, JavaScript, Angular, Oracle, SQL Server.
+
 projects:
   display: false
   title: Projects
@@ -86,10 +143,26 @@ skills:
   display: true
   title: Technical skills
   details: |
-    Here is my skills:
+    Programming languages:
     + Java
     + Kotlin
     + Go
+    + JavaScript
+    + Typescript
+    + Ruby
+
+    Frameworks:
+    + Angular
+    + Node.js
+    + Spring
+
+    Infrastructure:
+    + Docker
+    + Kubernetes
+
+    Cloud:
+    + Amazon Web Services
+    + Google Cloud Platform
 
   levels:
     - name: Java
@@ -98,6 +171,27 @@ skills:
       level: 70
     - name: Go
       level: 90
+    - name: JavaScript
+      level: 90
+    - name: Typescript
+      level: 70
+    - name: Ruby
+      level: 10
+    - name: Angular
+      level: 80
+    - name: Node.js
+      level: 70
+    - name: Spring
+      level: 80
+    - name: Docker
+      level: 80
+    - name: Kubernetes
+      level: 20
+    - name: Amazon Web Services
+      level: 50
+    - name: Google Cloud Platform
+      level: 20
+
 
 education:
   display: true
