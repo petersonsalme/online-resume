@@ -1,0 +1,14 @@
+{% assign communication = data.communication %}
+{% if communication and communication.display %}
+<section class="communication">
+    <div class="section-title">
+        {{ communication.title }}
+    </div>
+
+    <div class="section-content">
+        <div class="markdown">
+            {{ communication.details | markdownify }}
+        </div>
+    </div>
+</section>
+{% endif %}

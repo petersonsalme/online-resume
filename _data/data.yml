@@ -192,6 +192,16 @@ skills:
     - name: Google Cloud Platform
       level: 20
 
+communication:
+  display: true
+  title: Communication and social skills
+  details: |
+    + Clear and assertive communication;
+    + Approachable and helpful; 
+    + Open to criticism and active listener;
+    + Problem-solving attitude;
+    + Proactive.
+
 education:
   display: true
   title: Education history
